@@ -1,0 +1,372 @@
+*{
+    font-family: poppins;
+    margin: 0;
+}
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+    opacity: 0;      /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #FFBB3A;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #333333;  /* creates padding around scroll thumb */
+}
+
+body{
+    background-color: #333333;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    width: 331px;
+    background-color: #FFBB3A;
+    height: 100%;
+    flex-direction: column;
+    position: fixed;
+    justify-content: space-around;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+}
+.logo img{
+    padding-left: 45px;
+}
+.logo p{
+    font-weight: 500;
+    padding-top: 10px;
+    padding-left: 20px ;
+}
+
+.nav a{
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    
+}
+.nav li{
+    list-style-type: none;
+    color: black;
+    padding: 8px;
+    
+}
+
+.nav a:hover{
+    color: #FFBB3A;
+    background-color: black;
+    transition: 0.9s;
+    border-radius: 22px;
+    padding: 5px;
+}
+
+.nav-end{
+    display: flex;
+    flex-direction: row;
+    align-items: center;;
+    /* padding-top: 200px;
+    padding-bottom: 32px; */
+}
+
+.nav-end p{
+    background-color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-home{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    color: black;
+    background-color: white;
+    font-weight: 500;
+    margin-left: 40px;
+    border-radius: 24px;
+}
+
+.btn-home:hover{
+    background-color: black;
+    color: white;
+    transition: 0.9s;
+}
+
+.Home  {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 400px;
+    margin-top:50px
+}
+
+.Horizontal{
+    display: flex;
+    flex-direction: column;
+}
+
+.Video{
+    padding: 16px 16px;
+}
+
+video{
+    border-radius: 24px;
+}
+
+.HomeVertical{
+    padding-left: 22px;
+}
+
+.title-catalog{
+    color: white;
+    padding: 40px;
+    font-size: 25px;
+}
+.title-catalog h1{
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+}
+
+.title-catalog p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.main-catalog{
+    margin-left: 320px;
+    text-align: center;
+}
+
+.catalog{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    margin-left: 30px;
+    border-radius: 10px;
+    border: 1px solid #EFEFEF;
+    border-radius: 24px;
+    margin-top: 16px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.card p{
+    color: white;
+}
+
+img{
+    border-radius:  24px 24px 0px 0px;
+}
+
+.oversized{
+    background-image: url(/src/Oversized1.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 3;
+}
+
+.oversized:hover{
+    background-image: url(/src/Oversized2.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    transition: 0.9s;
+}
+
+.bomber{
+    background-image: url(/src/Bomber1.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bomber:hover{
+    background-image: url(/src/Bomber2.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    transition: 0.9s;
+}
+
+.sweatshirt{
+    background-image: url(/src/Moletom1.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.sweatshirt:hover{
+    background-image: url(/src/Moletom2.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    transition: 0.9s;
+}
+
+.bucket{
+    background-image: url(/src/Bucket1.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.bucket:hover{
+    background-image: url(/src/Bucket2.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    transition: 0.9s;
+}
+
+.cap{
+    background-image: url(/src/Hat1.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.cap:hover{
+    background-image: url(/src/Hat2.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    transition: 0.9s;
+}
+
+.woolly{
+    background-image: url(/src/Gorro1.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.woolly:hover{
+    background-image: url(/src/Gorro2.png);
+    width: 300px;
+    background-size: 300px;
+    background-repeat: no-repeat;
+    z-index: 3;
+    transition: 0.9s;
+}
+
+.about-main{
+    margin-left: 400px;
+    margin-right: 60px;
+    padding: 30px;
+    padding-bottom: 60px;
+}
+
+.about-main h1{
+    color: white;
+    padding: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+.about-main p{
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 40px;
+}
+
+.about-main b{
+    color: #FFBB3A;
+}
+
+.contact-main{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 400px;
+    margin-right: 60px;
+    text-align: start;
+    text-decoration: none;
+}
+
+.contact-main h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact-main h2{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 10px 0px;
+}
+
+input{
+    border: solid 1px gray;
+    padding: 10px;
+    border-radius: 24px;
+}
+
+input::placeholder{
+    font-size: 15px;
+}
+
+textarea{
+    border-radius: 24px;
+    padding: 5px 10px;
+}
+
+textarea::placeholder{
+    font-size: 15px;
+}
+
+.phone{
+    display: flex;
+    flex-direction: row;
+}
+
+.social-media{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.footer{
+    text-align: center;
+    margin-left: 300px;
+    color: white;
+    padding: 80px;
+    background-color: #1f1f1f;
+    width: 100;
+}
