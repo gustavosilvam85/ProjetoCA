@@ -182,7 +182,7 @@ img{
 }
 
 .oversized{
-    background-image: url(/src/Oversized1.png);
+    background-image: url(../src/Oversized1.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -191,7 +191,7 @@ img{
 }
 
 .oversized:hover{
-    background-image: url(/src/Oversized2.png);
+    background-image: url(../src/Oversized2.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -200,7 +200,7 @@ img{
 }
 
 .bomber{
-    background-image: url(/src/Bomber1.png);
+    background-image: url(../src/Bomber1.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -208,7 +208,7 @@ img{
 }
 
 .bomber:hover{
-    background-image: url(/src/Bomber2.png);
+    background-image: url(../src/Bomber2.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -217,7 +217,7 @@ img{
 }
 
 .sweatshirt{
-    background-image: url(/src/Moletom1.png);
+    background-image: url(../src/Moletom1.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -225,7 +225,7 @@ img{
 }
 
 .sweatshirt:hover{
-    background-image: url(/src/Moletom2.png);
+    background-image: url(../src/Moletom2.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -234,7 +234,7 @@ img{
 }
 
 .bucket{
-    background-image: url(/src/Bucket1.png);
+    background-image: url(../src/Bucket1.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -242,7 +242,7 @@ img{
 }
 
 .bucket:hover{
-    background-image: url(/src/Bucket2.png);
+    background-image: url(../src/Bucket2.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -251,7 +251,7 @@ img{
 }
 
 .cap{
-    background-image: url(/src/Hat1.png);
+    background-image: url(../src/Hat1.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -259,7 +259,7 @@ img{
 }
 
 .cap:hover{
-    background-image: url(/src/Hat2.png);
+    background-image: url(../src/Hat2.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -268,7 +268,7 @@ img{
 }
 
 .woolly{
-    background-image: url(/src/Gorro1.png);
+    background-image: url(../src/Gorro1.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
@@ -276,7 +276,7 @@ img{
 }
 
 .woolly:hover{
-    background-image: url(/src/Gorro2.png);
+    background-image: url(../src/Gorro2.png);
     width: 300px;
     background-size: 300px;
     background-repeat: no-repeat;
